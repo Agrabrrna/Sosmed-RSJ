@@ -70,7 +70,7 @@ const { startCleanupJob } = require('./utils/cleanup');
 
 connectDB().then(() => {
   server.listen(PORT, () => {
-    console.log(`Anomia running on http://localhost:${PORT}`);
+    console.log(`EresjeAasix running on http://localhost:${PORT}`);
     startCleanupJob();
   });
 });

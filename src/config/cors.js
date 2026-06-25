@@ -5,6 +5,7 @@ const ALLOWED_ORIGINS = [
   'http://localhost:4173', // Vite preview
   'https://anomia.pages.dev', // Cloudflare Pages
   'https://anomia-2lh.pages.dev', // Subdomain Cloudflare Pages jika berbeda
+  'https://sosmed-rsj.vercel.app/', // Subdomain Cloudflare Pages jika berbeda
 ];
 
 // Tambahan origin dari environment variable (comma-separated), opsional.
